@@ -1,0 +1,203 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">ISESteroids</S>
+      <Version N="Version">2.7.1.7</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Extension for PowerShell ISE 3.0 and better</S>
+      <S N="Author">Dr. Tobias Weltner</S>
+      <S N="CompanyName">ISESteroids</S>
+      <S N="Copyright">� 2017 Dr. Tobias Weltner. All rights reserved.</S>
+      <DT N="PublishedDate">2017-07-17T12:49:45-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-11-27T12:46:07.9379324-06:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">http://www.powertheshell.com/wp-content/uploads/EULA-ISESteroids-1.pdf</URI>
+      <URI N="ProjectUri">http://www.powertheshell.com/isesteroidsmanual/isesteroids-version-history/</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Editor</S>
+          <S>ISE</S>
+          <S>ISESteroids</S>
+          <S>Enhancement</S>
+          <S>PSSharper</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-PSSharperData</S>
+                <S>Add-SteroidsContextMenuCommand</S>
+                <S>Add-SteroidsEditorTabCommand</S>
+                <S>Add-SteroidsLicense</S>
+                <S>Add-SteroidsTextChange</S>
+                <S>Add-SteroidsTool</S>
+                <S>Clear-SteroidsTextChange</S>
+                <S>Enable-SteroidsHelpAboutCache</S>
+                <S>Get-SteroidsAST</S>
+                <S>Get-SteroidsCompatibilityReport</S>
+                <S>Get-SteroidsContextMenuCommand</S>
+                <S>Get-SteroidsEditor</S>
+                <S>Get-SteroidsKeyboardShortcut</S>
+                <S>Get-SteroidsSnippetRepository</S>
+                <S>Get-SteroidsSnippetShortcut</S>
+                <S>Get-SteroidsStartupData</S>
+                <S>Get-SteroidsVersion</S>
+                <S>Import-AdvancedSearchAddon</S>
+                <S>Invoke-SteroidsTextChange</S>
+                <S>New-SteroidsKeyboardShortcut</S>
+                <S>Remove-SteroidsContextMenuCommand</S>
+                <S>Remove-SteroidsKeyboardShortcut</S>
+                <S>Remove-SteroidsLicense</S>
+                <S>Show-SteroidsAdvancedSearch</S>
+                <S>Show-SteroidsLicense</S>
+                <S>Show-SteroidsSnippet</S>
+                <S>Start-Steroids</S>
+                <S>Test-SteroidsTextChange</S>
+                <S>Test-SteroidsTypeChange</S>
+                <S>Trace-SteroidsOutput</S>
+                <S>Update-SteroidsHelp</S>
+                <S>Update-SteroidsRequiresStatement</S>
+                <S>Update-SteroidsSnippetRepository</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-PSSharperData</S>
+                <S>Add-SteroidsContextMenuCommand</S>
+                <S>Add-SteroidsEditorTabCommand</S>
+                <S>Add-SteroidsLicense</S>
+                <S>Add-SteroidsTextChange</S>
+                <S>Add-SteroidsTool</S>
+                <S>Clear-SteroidsTextChange</S>
+                <S>Enable-SteroidsHelpAboutCache</S>
+                <S>Get-SteroidsAST</S>
+                <S>Get-SteroidsCompatibilityReport</S>
+                <S>Get-SteroidsContextMenuCommand</S>
+                <S>Get-SteroidsEditor</S>
+                <S>Get-SteroidsKeyboardShortcut</S>
+                <S>Get-SteroidsSnippetRepository</S>
+                <S>Get-SteroidsSnippetShortcut</S>
+                <S>Get-SteroidsStartupData</S>
+                <S>Get-SteroidsVersion</S>
+                <S>Import-AdvancedSearchAddon</S>
+                <S>Invoke-SteroidsTextChange</S>
+                <S>New-SteroidsKeyboardShortcut</S>
+                <S>Remove-SteroidsContextMenuCommand</S>
+                <S>Remove-SteroidsKeyboardShortcut</S>
+                <S>Remove-SteroidsLicense</S>
+                <S>Show-SteroidsAdvancedSearch</S>
+                <S>Show-SteroidsLicense</S>
+                <S>Show-SteroidsSnippet</S>
+                <S>Start-Steroids</S>
+                <S>Test-SteroidsTextChange</S>
+                <S>Test-SteroidsTypeChange</S>
+                <S>Trace-SteroidsOutput</S>
+                <S>Update-SteroidsHelp</S>
+                <S>Update-SteroidsRequiresStatement</S>
+                <S>Update-SteroidsSnippetRepository</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">� 2017 Dr. Tobias Weltner. All rights reserved.</S>
+          <S N="description">Extension for PowerShell ISE 3.0 and better</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="isLatestVersion">False</S>
+          <S N="isAbsoluteLatestVersion">False</S>
+          <S N="versionDownloadCount">16650</S>
+          <S N="downloadCount">84876</S>
+          <S N="packageSize">27076578</S>
+          <S N="published">7/17/2017 12:49:45 PM -05:00</S>
+          <S N="created">7/17/2017 12:49:45 PM -05:00</S>
+          <S N="lastUpdated">11/27/2022 8:51:01 AM -06:00</S>
+          <S N="tags">Editor ISE ISESteroids Enhancement PSSharper PSModule PSCmdlet_Get-PSSharperData PSCommand_Get-PSSharperData PSCmdlet_Add-SteroidsContextMenuCommand PSCommand_Add-SteroidsContextMenuCommand PSCmdlet_Add-SteroidsEditorTabCommand PSCommand_Add-SteroidsEditorTabCommand PSCmdlet_Add-SteroidsLicense PSCommand_Add-SteroidsLicense PSCmdlet_Add-SteroidsTextChange PSCommand_Add-SteroidsTextChange PSCmdlet_Add-SteroidsTool PSCommand_Add-SteroidsTool PSCmdlet_Clear-SteroidsTextChange PSCommand_Clear-SteroidsTextChange PSCmdlet_Enable-SteroidsHelpAboutCache PSCommand_Enable-SteroidsHelpAboutCache PSCmdlet_Get-SteroidsAST PSCommand_Get-SteroidsAST PSCmdlet_Get-SteroidsCompatibilityReport PSCommand_Get-SteroidsCompatibilityReport PSCmdlet_Get-SteroidsContextMenuCommand PSCommand_Get-SteroidsContextMenuCommand PSCmdlet_Get-SteroidsEditor PSCommand_Get-SteroidsEditor PSCmdlet_Get-SteroidsKeyboardShortcut PSCommand_Get-SteroidsKeyboardShortcut PSCmdlet_Get-SteroidsSnippetRepository PSCommand_Get-SteroidsSnippetRepository PSCmdlet_Get-SteroidsSnippetShortcut PSCommand_Get-SteroidsSnippetShortcut PSCmdlet_Get-SteroidsStartupData PSCommand_Get-SteroidsStartupData PSCmdlet_Get-SteroidsVersion PSCommand_Get-SteroidsVersion PSCmdlet_Import-AdvancedSearchAddon PSCommand_Import-AdvancedSearchAddon PSCmdlet_Invoke-SteroidsTextChange PSCommand_Invoke-SteroidsTextChange PSCmdlet_New-SteroidsKeyboardShortcut PSCommand_New-SteroidsKeyboardShortcut PSCmdlet_Remove-SteroidsContextMenuCommand PSCommand_Remove-SteroidsContextMenuCommand PSCmdlet_Remove-SteroidsKeyboardShortcut PSCommand_Remove-SteroidsKeyboardShortcut PSCmdlet_Remove-SteroidsLicense PSCommand_Remove-SteroidsLicense PSCmdlet_Show-SteroidsAdvancedSearch PSCommand_Show-SteroidsAdvancedSearch PSCmdlet_Show-SteroidsLicense PSCommand_Show-SteroidsLicense PSCmdlet_Show-SteroidsSnippet PSCommand_Show-SteroidsSnippet PSCmdlet_Start-Steroids PSCommand_Start-Steroids PSCmdlet_Test-SteroidsTextChange PSCommand_Test-SteroidsTextChange PSCmdlet_Test-SteroidsTypeChange PSCommand_Test-SteroidsTypeChange PSCmdlet_Trace-SteroidsOutput PSCommand_Trace-SteroidsOutput PSCmdlet_Update-SteroidsHelp PSCommand_Update-SteroidsHelp PSCmdlet_Update-SteroidsRequiresStatement PSCommand_Update-SteroidsRequiresStatement PSCmdlet_Update-SteroidsSnippetRepository PSCommand_Update-SteroidsSnippetRepository PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-11-27T08:51:01Z</S>
+          <S N="NormalizedVersion">2.7.1.7</S>
+          <S N="Authors">Dr. Tobias Weltner</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">ISESteroids.nuspec|basic.ISESteroidsPack|EULA%20ISESteroids.pdf|install.bat|install.ps1|ISESteroids.dll|ISESteroids.dll-Help.xml|ISESteroids.psd1|README%20FIRST%20INSTALLATION%20AND%20COPYRIGHT%20INSTRUCTIONS.txt|winmerge.reg|3rdParty\ILSpy\ICSharpCode.AvalonEdit.dll|3rdParty\ILSpy\ICSharpCode.Decompiler.dll|3rdParty\ILSpy\ICSharpCode.NRefactory.CSharp.dll|3rdParty\ILSpy\ICSharpCode.NRefactory.dll|3rdParty\ILSpy\ICSharpCode.NRefactory.VB.dll|3rdParty\ILSpy\ICSharpCode.TreeView.dll|3rdParty\ILSpy\ILSpy.BamlDecompiler.Plugin.dll|3rdParty\ILSpy\ILSpy.exe|3rdParty\ILSpy\ILSpy.exe.config|3rdParty\ILSpy\Mono.Cecil.dll|3rdParty\ILSpy\Mono.Cecil.Pdb.dll|3rdParty\Kaxaml\ICSharpCode.TextEditor.dll|3rdParty\Kaxaml\Kaxaml.exe|3rdParty\Kaxaml\KaxamlPlugins.dll|3rdParty\Kaxaml\Microsoft.Practices.Prism.dll|3rdParty\Kaxaml\Microsoft.Practices.Prism.Interactivity.dll|3rdParty\Kaxaml\Microsoft.Practices.ServiceLocation.dll|3rdParty\Kaxaml\PixelLab.Common.dll|3rdParty\Kaxaml\PixelLab.Core.dll|3rdParty\Kaxaml\PixelLab.Wpf.dll|3rdParty\Kaxaml\System.Windows.Interactivity.dll|3rdParty\Kaxaml\en\System.Windows.Interactivity.resources.dll|3rdParty\Kaxaml\Plugins\ColorPickerPlugin.dll|3rdParty\Kaxaml\Plugins\XamlScrubberPlugin.dll|3rdParty\Kaxaml\Schemas\wpfe.xsd|3rdParty\Kaxaml\Schemas\XamlPresentation2006.xsd|3rdParty\PSExec\PsExec.exe|3rdParty\WinMerge\help.html|3rdParty\WinMerge\WinMergePortable.exe|3rdParty\WinMerge\WinMergePortable.ini|3rdParty\WinMerge\App\AppInfo\appicon.ico|3rdParty\WinMerge\App\AppInfo\appicon_128.png|3rdParty\WinMerge\App\AppInfo\appicon_16.png|3rdParty\WinMerge\App\AppInfo\appicon_32.png|3rdParty\WinMerge\App\AppInfo\appinfo.ini|3rdParty\WinMerge\App\AppInfo\installer.ini|3rdParty\WinMerge\App\AppInfo\Thumbs.db|3rdParty\WinMerge\App\AppInfo\Launcher\splash.jpg|3rdParty\WinMerge\App\AppInfo\Launcher\Thumbs.db|3rdParty\WinMerge\App\AppInfo\Launcher\WinMergePortable.ini|3rdParty\WinMerge\App\DefaultData\settings\WinMerge.reg|3rdParty\WinMerge\App\WinMerge\7z.dll|3rdParty\WinMerge\App\WinMerge\7zip_pad.xml|3rdParty\WinMerge\App\WinMerge\Contributors.txt|3rdParty\WinMerge\App\WinMerge\Files.txt|3rdParty\WinMerge\App\WinMerge\IgnoreSectionMarkers.ini|3rdParty\WinMerge\App\WinMerge\libexpat.dll|3rdParty\WinMerge\App\WinMerge\Merge7z910U.dll|3rdParty\WinMerge\App\WinMerge\Merge7z911.dll|3rdParty\WinMerge\App\WinMerge\Merge7z911U.dll|3rdParty\WinMerge\App\WinMerge\Merge7z912.dll|3rdParty\WinMerge\App\WinMerge\Merge7z912U.dll|3rdParty\WinMerge\App\WinMerge\Merge7z913.dll|3rdParty\WinMerge\App\WinMerge\Merge7z913U.dll|3rdParty\WinMerge\App\WinMerge\Merge7z914.dll|3rdParty\WinMerge\App\WinMerge\Merge7z914U.dll|3rdParty\WinMerge\App\WinMerge\Merge7z915.dll|3rdParty\WinMerge\App\WinMerge\Merge7z915U.dll|3rdParty\WinMerge\App\WinMerge\Merge7z916.dll|3rdParty\WinMerge\App\WinMerge\Merge7z916U.dll|3rdParty\WinMerge\App\WinMerge\Merge7z917.dll|3rdParty\WinMerge\App\WinMerge\Merge7z917U.dll|3rdParty\WinMerge\App\WinMerge\Merge7z918.dll|3rdParty\WinMerge\App\WinMerge\Merge7z918U.dll|3rdParty\WinMerge\App\WinMerge\Merge7z919.dll|3rdParty\WinMerge\App\WinMerge\Merge7z919U.dll|3rdParty\WinMerge\App\WinMerge\Merge7z920.dll|3rdParty\WinMerge\App\WinMerge\Merge7z920U.dll|3rdParty\WinMerge\App\WinMerge\MergeLang.dll|3rdParty\WinMerge\App\WinMerge\mfc90.dll|3rdParty\WinMerge\App\WinMerge\mfc90u.dll|3rdParty\WinMerge\App\WinMerge\mfcm90.dll|3rdParty\WinMerge\App\WinMerge\mfcm90u.dll|3rdParty\WinMerge\App\WinMerge\Microsoft.VC90.CRT.manifest|3rdParty\WinMerge\App\WinMerge\Microsoft.VC90.MFC.manifest|3rdParty\WinMerge\App\WinMerge\msvcm90.dll|3rdParty\WinMerge\App\WinMerge\msvcp90.dll|3rdParty\WinMerge\App\WinMerge\msvcr90.dll|3rdParty\WinMerge\App\WinMerge\pcre.dll|3rdParty\WinMerge\App\WinMerge\WinMergeU.exe|3rdParty\WinMerge\App\WinMerge\Filters\ADAMulti.flt|3rdParty\WinMerge\App\WinMerge\Filters\ASPNET.flt|3rdParty\WinMerge\App\WinMerge\Filters\CSharp_loose.flt|3rdParty\WinMerge\App\WinMerge\Filters\Delphi.flt|3rdParty\WinMerge\App\WinMerge\Filters\FileFilter.tmpl|3rdParty\WinMerge\App\WinMerge\Filters\Frontpage.flt|3rdParty\WinMerge\App\WinMerge\Filters\MASM.flt|3rdParty\WinMerge\App\WinMerge\Filters\Merge_GnuC_loose.flt|3rdParty\WinMerge\App\WinMerge\Filters\Merge_VB_loose.flt|3rdParty\WinMerge\App\WinMerge\Filters\Merge_VC_loose.flt|3rdParty\WinMerge\App\WinMerge\Filters\SourceControl.flt|3rdParty\WinMerge\App\WinMerge\Filters\Symbian.flt|3rdParty\WinMerge\App\WinMerge\Filters\XML_html.flt|3rdParty\WinMerge\App\WinMerge\MergePlugins\CompareMSExcelFiles.dll|3rdParty\WinMerge\App\WinMerge\MergePlugins\CompareMSWordFiles.dll|3rdParty\WinMerge\App\WinMerge\MergePlugins\DisplayXMLFiles.dll|3rdParty\WinMerge\App\WinMerge\MergePlugins\editor%20addin.sct|3rdParty\WinMerge\App\WinMerge\MergePlugins\IgnoreColumns.dll|3rdParty\WinMerge\App\WinMerge\MergePlugins\IgnoreCommentsC.dll|3rdParty\WinMerge\App\WinMerge\MergePlugins\IgnoreFieldsComma.dll|3rdParty\WinMerge\App\WinMerge\MergePlugins\IgnoreFieldsTab.dll|3rdParty\WinMerge\App\WinMerge\MergePlugins\IgnoreLeadingLineNumbers.dll|3rdParty\WinMerge\App\WinMerge\MergePlugins\insert%20datetime.sct|3rdParty\WinMerge\App\WinMerge\MergePlugins\WatchBeginningOfLog.dll|3rdParty\WinMerge\App\WinMerge\MergePlugins\WatchEndOfLog.dll|3rdParty\WinMerge\Data\settings\WinMerge.reg|3rdParty\WinMerge\Data\settings\WinMergePortableSettings.ini|3rdParty\WinMerge\Other\Help\images\donation_button.png|3rdParty\WinMerge\Other\Help\images\favicon.ico|3rdParty\WinMerge\Other\Help\images\help_background_footer.png|3rdParty\WinMerge\Other\Help\images\help_background_header.png|3rdParty\WinMerge\Other\Help\images\help_logo_top.png|3rdParty\WinMerge\Other\Help\images\Thumbs.db|3rdParty\WinMerge\Other\Source\AppNamePortable.ini|3rdParty\WinMerge\Other\Source\LauncherLicense.txt|3rdParty\WinMerge\Other\Source\PortableApps.comInstallerCustom.nsh|3rdParty\WinMerge\Other\Source\Readme.txt|Audio\WarGames-like\done.wav|Audio\WarGames-like\error.wav|Audio\WarGames-like\output.wav|Audio\WarGames-like%20without%20Done%20Beep\error.wav|Audio\WarGames-like%20without%20Done%20Beep\output.wav|ContentTypes\logFiles.xml|ContentTypes\VBScript.xml|DefaultSettings\coloroptions.ISESteroidsThemeXML|DefaultSettings\options.xml|Fixer\Character%20Operations\BacktickPlusSpace\BacktickSpace.ps1|Fixer\Character%20Operations\BacktickPlusSpace\fixer.psd1|Fixer\Character%20Operations\BacktickPlusSpace\image.png|Fixer\Character%20Operations\BacktickPlusSpace\Thumbs.db|Fixer\Character%20Operations\Illegal%20Characters\fixer.psd1|Fixer\Character%20Operations\Illegal%20Characters\fixer_default.png|Fixer\Character%20Operations\Illegal%20Characters\illegalchar.png|Fixer\Character%20Operations\Illegal%20Characters\IllegalCharacters.ps1|Fixer\Character%20Operations\Illegal%20Characters\Thumbs.db|Fixer\Character%20Operations\NormalizeLineEndings\fixer.psd1|Fixer\Character%20Operations\NormalizeLineEndings\image.png|Fixer\Character%20Operations\NormalizeLineEndings\NormalizeLineEndings.ps1|Fixer\Character%20Operations\NormalizeLineEndings\Thumbs.db|Fixer\Command\CommandCase\CommandCase.ps1|Fixer\Command\CommandCase\fixer.psd1|Fixer\Command\CommandCase\image.png|Fixer\Command\CommandCase\Thumbs.db|Fixer\Command\CommandParameter\CommandParameter.ps1|Fixer\Command\CommandParameter\fixer.psd1|Fixer\Command\CommandParameter\image.png|Fixer\Command\CommandParameter\Thumbs.db|Fixer\Command\CommandPositionalParameter\CommandPositionalParameter.ps1|Fixer\Command\CommandPositionalParameter\fixer.psd1|Fixer\Command\CommandPositionalParameter\image.png|Fixer\Command\CommandPositionalParameter\Thumbs.db|Fixer\Command\ReplaceAliases\fixer.psd1|Fixer\Command\ReplaceAliases\image.png|Fixer\Command\ReplaceAliases\ReplaceAliases.ps1|Fixer\Command\ReplaceAliases\Thumbs.db|Fixer\Final%20Touches\Requires\AddRequirements.ps1|Fixer\Final%20Touches\Requires\fixer.psd1|Fixer\Final%20Touches\Requires\image.png|Fixer\Final%20Touches\Requires\Thumbs.db|Fixer\Pipeline\PipelineBreakAfterPipe\fixer.psd1|Fixer\Pipeline\PipelineBreakAfterPipe\image.png|Fixer\Pipeline\PipelineBreakAfterPipe\PipelineBreakAfterPipe.ps1|Fixer\Pipeline\PipelineBreakAfterPipe\Thumbs.db|Fixer\Pipeline\PipelineRemoveOutNull\fixer.psd1|Fixer\Pipeline\PipelineRemoveOutNull\image.png|Fixer\Pipeline\PipelineRemoveOutNull\PipelineRemoveOutNull.ps1|Fixer\Pipeline\PipelineRemoveOutNull\Thumbs.db|Fixer\Quality%20Improvement\DoubleQuotes\DoubleQuotes.ps1|Fixer\Quality%20Improvement\DoubleQuotes\fixer.psd1|Fixer\Quality%20Improvement\DoubleQuotes\image.png|Fixer\Quality%20Improvement\DoubleQuotes\Thumbs.db|Fixer\Reformat%20Structures\Reformat%20Hashtable\fixer.psd1|Fixer\Reformat%20Structures\Reformat%20Hashtable\image.png|Fixer\Reformat%20Structures\Reformat%20Hashtable\ReformatHashtable.ps1|Fixer\Reformat%20Structures\RemoveSemicolon\fixer.psd1|Fixer\Reformat%20Structures\RemoveSemicolon\image.png|Fixer\Reformat%20Structures\RemoveSemicolon\RemoveSemicolon.ps1|Fixer\Reformat%20Structures\RemoveSemicolon\Thumbs.db|Fixer\ScriptBlock\ScriptBlockAlignBracesAll\fixer.psd1|Fixer\ScriptBlock\ScriptBlockAlignBracesAll\image.png|Fixer\ScriptBlock\ScriptBlockAlignBracesAll\ScriptBlockAlignBracesAll.ps1|Fixer\ScriptBlock\ScriptBlockAlignBracesAll\Thumbs.db|Fixer\ScriptBlock\ScriptBlockAlignBracesSome\fixer.psd1|Fixer\ScriptBlock\ScriptBlockAlignBracesSome\image.png|Fixer\ScriptBlock\ScriptBlockAlignBracesSome\ScriptBlockAlignBracesSome.ps1|Fixer\ScriptBlock\ScriptBlockAlignBracesSome\Thumbs.db|Fixer\ScriptBlock\ScriptBlockRemoveEmptyLines\fixer.psd1|Fixer\ScriptBlock\ScriptBlockRemoveEmptyLines\image.png|Fixer\ScriptBlock\ScriptBlockRemoveEmptyLines\ScriptBlockRemoveEmptyLines.ps1|Fixer\ScriptBlock\ScriptBlockRemoveEmptyLines\Thumbs.db|Fixer\Spaces\ArrayAdjustSpace\ArrayAdjustSpace.ps1|Fixer\Spaces\ArrayAdjustSpace\fixer.psd1|Fixer\Spaces\ArrayAdjustSpace\image.png|Fixer\Spaces\ArrayAdjustSpace\Thumbs.db|Fixer\Spaces\OperatorAdjustSpace\fixer.psd1|Fixer\Spaces\OperatorAdjustSpace\image.png|Fixer\Spaces\OperatorAdjustSpace\OperatorAdjustSpace.ps1|Fixer\Spaces\OperatorAdjustSpace\Thumbs.db|Fixer\Variables\NormalizeVariables\fixer.psd1|Fixer\Variables\NormalizeVariables\image.png|Fixer\Variables\NormalizeVariables\NormalizeVariables.ps1|Fixer\Variables\NormalizeVariables\Thumbs.db|FixerOnDemand\Fix%20Content\Convert%20String%20To%20Variable\ConvertTextToEnvironmentVariable.ps1|FixerOnDemand\Fix%20Content\Convert%20String%20To%20Variable\fixer.psd1|FixerOnDemand\Fix%20Content\Convert%20String%20To%20Variable\image.png|FixerOnDemand\Fix%20Content\Convert%20String%20To%20Variable\Thumbs.db|Fonts\readme.txt|Fonts\source%20code%20pro%20and%20console%20CRT.ISESteroidsFontThemeXML|Fonts\source%20code%20pro.ISESteroidsFontThemeXML|Fonts\ubuntu.ISESteroidsFontThemeXML|Fonts\Anonymous\Anonymous.ttf|Fonts\Anonymous\Mark%20Simonson%20-%20Anonymous%20License.txt|Fonts\Anonymous-Pro\Anonymous_Pro.ttf|Fonts\Anonymous-Pro\Anonymous_Pro_B.ttf|Fonts\Anonymous-Pro\Anonymous_Pro_BI.ttf|Fonts\Anonymous-Pro\Anonymous_Pro_I.ttf|Fonts\Anonymous-Pro\SIL%20Open%20Font%20License.txt|Fonts\Bitstream-Vera-Sans-Mono\Bitstream%20Vera%20License.txt|Fonts\Bitstream-Vera-Sans-Mono\VeraMono-Bold-Italic.ttf|Fonts\Bitstream-Vera-Sans-Mono\VeraMono-Bold.ttf|Fonts\Bitstream-Vera-Sans-Mono\VeraMono-Italic.ttf|Fonts\Bitstream-Vera-Sans-Mono\VeraMono.ttf|Fonts\BPdots\BPdots.otf|Fonts\BPdots\BPdotsBold.otf|Fonts\BPdots\BPdotsDiamond.otf|Fonts\BPdots\BPdotsDiamondBold.otf|Fonts\BPdots\BPdotsDiamondLight.otf|Fonts\BPdots\BPdotsLight.otf|Fonts\BPdots\BPdotsMinus.otf|Fonts\BPdots\BPdotsMinusBold.otf|Fonts\BPdots\BPdotsPlus.otf|Fonts\BPdots\BPdotsPlusBold.otf|Fonts\BPdots\BPdotsSquare.otf|Fonts\BPdots\BPdotsSquareBold.otf|Fonts\BPdots\BPdotsSquareLight.otf|Fonts\BPdots\BPdotsVertical.otf|Fonts\BPdots\BPdotsVerticalBold.otf|Fonts\BPdots\Creative%20Commons%20Attribution-No%20Derivative%20Works.txt|Fonts\BPdotsUnicase\BPdotsUnicase.otf|Fonts\BPdotsUnicase\BPdotsUnicaseBold.otf|Fonts\BPdotsUnicase\BPdotsUnicaseDiamond.otf|Fonts\BPdotsUnicase\BPdotsUnicaseDiamondBold.otf|Fonts\BPdotsUnicase\BPdotsUnicaseDiamondLight.otf|Fonts\BPdotsUnicase\BPdotsUnicaseLight.otf|Fonts\BPdotsUnicase\BPdotsUnicaseMinus.otf|Fonts\BPdotsUnicase\BPdotsUnicaseMinusBold.otf|Fonts\BPdotsUnicase\BPdotsUnicasePlus.otf|Fonts\BPdotsUnicase\BPdotsUnicasePlusBold.otf|Fonts\BPdotsUnicase\BPdotsUnicaseSquare.otf|Fonts\BPdotsUnicase\BPdotsUnicaseSquareBold.otf|Fonts\BPdotsUnicase\BPdotsUnicaseSquareLight.otf|Fonts\BPdotsUnicase\BPdotsUnicaseVertical.otf|Fonts\BPdotsUnicase\BPdotsUnicaseVerticalBold.otf|Fonts\BPdotsUnicase\Creative%20Commons%20Attribution-No%20Derivative%20Works.txt|Fonts\BPmono\BPmono.ttf|Fonts\BPmono\BPmonoBold.ttf|Fonts\BPmono\BPmonoItalics.ttf|Fonts\BPmono\Creative%20Commons%20Attribution-No%20Derivative%20Works.txt|Fonts\cousine\Apache%20License.txt|Fonts\cousine\Cousine-Bold.ttf|Fonts\cousine\Cousine-BoldItalic.ttf|Fonts\cousine\Cousine-Italic.ttf|Fonts\cousine\Cousine-Regular.ttf|Fonts\Dited\Dited.otf|Fonts\Dited\Jovanny%20Lemonad%20Freeware%20License.txt|Fonts\droid-sans-mono\Apache%20License.txt|Fonts\droid-sans-mono\DroidSansMono.ttf|Fonts\fira-mono\FiraMono-Bold.otf|Fonts\fira-mono\FiraMono-Regular.otf|Fonts\fira-mono\SIL%20Open%20Font%20License.txt|Fonts\Heavy-Data\heavy_data.ttf|Fonts\Heavy-Data\Vic%20Fieger%20License.txt|Fonts\Inconsolata\Inconsolata.otf|Fonts\Inconsolata\SIL%20Open%20Font%20License.txt|Fonts\laconic\Laconic_Bold.otf|Fonts\laconic\Laconic_Light.otf|Fonts\laconic\Laconic_Regular.otf|Fonts\laconic\Laconic_Shadow.otf|Fonts\laconic\SIL%20Open%20Font%20License.txt|Fonts\lekton\Lekton-Bold.ttf|Fonts\lekton\Lekton-Italic.ttf|Fonts\lekton\Lekton-Regular.ttf|Fonts\lekton\SIL%20Open%20Font%20License.txt|Fonts\Liberation-Mono\LiberationMono-Bold.ttf|Fonts\Liberation-Mono\LiberationMono-BoldItalic.ttf|Fonts\Liberation-Mono\LiberationMono-Italic.ttf|Fonts\Liberation-Mono\LiberationMono-Regular.ttf|Fonts\Liberation-Mono\Red%20Hat%20Liberation%20License.txt|Fonts\Luxi-Mono\Bigelow%20%26%20Holmes%20-%20Luxi%20License.txt|Fonts\Luxi-Mono\luximb.ttf|Fonts\Luxi-Mono\luximbi.ttf|Fonts\Luxi-Mono\luximr.ttf|Fonts\Luxi-Mono\luximri.ttf|Fonts\M-1m\M%2B%20Fonts%20License.txt|Fonts\M-1m\mplus-1m-bold.ttf|Fonts\M-1m\mplus-1m-light.ttf|Fonts\M-1m\mplus-1m-medium.ttf|Fonts\M-1m\mplus-1m-regular.ttf|Fonts\M-1m\mplus-1m-thin.ttf|Fonts\Minisystem\Larabie%20Fonts%20License.txt|Fonts\Minisystem\minisystem.otf|Fonts\NotCourierSans\NotCourierSans%20License.txt|Fonts\NotCourierSans\NotCourierSans-Bold.otf|Fonts\NotCourierSans\NotCourierSans.otf|Fonts\oxygen-mono\OxygenMono-Regular.otf|Fonts\oxygen-mono\SIL%20Open%20Font%20License.txt|Fonts\pt-mono\PTM55FT.ttf|Fonts\pt-mono\SIL%20Open%20Font%20License.txt|Fonts\saxMono\s.a.x.%20Software%20License.txt|Fonts\saxMono\saxmono.ttf|Fonts\SourceCode%20Pro\LICENSE%20SOURCECODE%20PRO%20FONT.txt|Fonts\SourceCode%20Pro\SourceCodePro-Black.ttf|Fonts\SourceCode%20Pro\SourceCodePro-Bold.ttf|Fonts\SourceCode%20Pro\SourceCodePro-ExtraLight.ttf|Fonts\SourceCode%20Pro\SourceCodePro-Light.ttf|Fonts\SourceCode%20Pro\SourceCodePro-Medium.ttf|Fonts\SourceCode%20Pro\SourceCodePro-Regular.ttf|Fonts\SourceCode%20Pro\SourceCodePro-Semibold.ttf|Fonts\ubuntu-mono\UBUNTU%20FONT%20LICENCE.txt|Fonts\ubuntu-mono\UbuntuMono-B.ttf|Fonts\ubuntu-mono\UbuntuMono-BI.ttf|Fonts\ubuntu-mono\UbuntuMono-R.ttf|Fonts\ubuntu-mono\UbuntuMono-RI.ttf|Fonts\Virgo-01\Vic%20Fieger%20License.txt|Fonts\Virgo-01\virgo.ttf|Level\Beginner.psd1|Level\ISESteroids%20Professional%20Trial.psd1|License\place%20your%20license%20file%20here.txt|Pester\default.tests.ps1|Pester\defaultheader.tests.ps1|PSSharper\Syntax\MissingEndParenthesisInFunctionParameterList.ps1|PSSharper\Syntax\MissingEndParenthesisInMethodCall.ps1|PSSharper\Syntax\MissingExpressionAfterToken.ps1|Resources\PSApp.ico|RiskManagement\highRisk.csv|RiskManagement\mediumRisk.csv|RiskManagement\noRisk.csv|RiskManagement\trustedCertificates.csv|Snippets\Attribute\appends%20ByPropertyName%20Attribute.snippets.ps1xml|Snippets\Attribute\Mandatory%20Attribute.snippets.ps1xml|Snippets\Attribute\Position%20Attribute.snippets.ps1xml|Snippets\Attribute\ValidateRange%20Attribute.snippets.ps1xml|Snippets\Attribute\ValidateSet%20attribute.snippets.ps1xml|Snippets\Attribute\ValueFromPipeline%20Attribute.snippets.ps1xml|Snippets\Attribute\_Validate%20fragment.snippets.ps1xml|Snippets\Class\class.snippets.ps1xml|Snippets\Class\enum%20(multiline).snippets.ps1xml|Snippets\Class\enum%20(simple).snippets.ps1xml|Snippets\Class\full%20example.snippets.ps1xml|Snippets\Comment\BlockComment.snippets.ps1xml|Snippets\Condition\else.snippets.ps1xml|Snippets\Condition\elseif.snippets.ps1xml|Snippets\Condition\if%20(simple%20clause).snippets.ps1xml|Snippets\Condition\switch.snippets.ps1xml|Snippets\Dialogs\msgBox.snippets.ps1xml|Snippets\Dialogs\msgboxYesNo.snippets.ps1xml|Snippets\DSC\DSC%20Configuration%20(simple).ps1.snippets.ps1xml|Snippets\DSC\DSC%20Configuration%20(using%20configuration%20data).ps1.snippets.ps1xml|Snippets\DSC\DSC%20ConfigurationData.ps1.snippets.ps1xml|Snippets\DSC\DSC%20ResourceProvider%20(simple).ps1.snippets.ps1xml|Snippets\Error%20Handling\catch.snippets.ps1xml|Snippets\Error%20Handling\finally.snippets.ps1xml|Snippets\Error%20Handling\trap.snippets.ps1xml|Snippets\Error%20Handling\try-catch-finally.snippets.ps1xml|Snippets\Error%20Handling\try-finally.snippets.ps1xml|Snippets\Error%20Handling\try.snippets.ps1xml|Snippets\Function\begin.snippets.ps1xml|Snippets\Function\cmdlet%20(advanced%20function)%20-%20complete.snippets.ps1xml|Snippets\Function\cmdlet%20(advanced%20function).ps1.snippets.ps1xml|Snippets\Function\end.snippets.ps1xml|Snippets\Function\Function%20body%20(simple).snippets.ps1xml|Snippets\Function\pprocess.snippets.ps1xml|Snippets\Information\Computer\machinename.snippets.ps1xml|Snippets\Information\Computer\processorcount.snippets.ps1xml|Snippets\Information\OperatingSystem\is64bit.snippets.ps1xml|Snippets\Information\OperatingSystem\is64bitprocess.snippets.ps1xml|Snippets\Information\User\username.snippets.ps1xml|Snippets\Loop\do-until.snippets.ps1xml|Snippets\Loop\do-while.snippets.ps1xml|Snippets\Loop\foreach.snippets.ps1xml|Snippets\Loop\simplefor.snippets.ps1xml|Snippets\Loop\while.snippets.ps1xml|Snippets\Parameter\Param%20block%20(simple).snippets.ps1xml|Snippets\Parameter\Parameter%20Body.snippets.ps1xml|Snippets\Pipeline\Foreach-Object.snippets.ps1xml|Snippets\Pipeline\Select-Object.snippets.ps1xml|Snippets\Pipeline\Sort-Object.snippets.ps1xml|Snippets\Pipeline\Where-Object.snippets.ps1xml|Snippets\Regions\region.snippets.ps1xml|Snippets\Scriptblock\scriptBlock.snippets.ps1xml|Snippets\Scriptblock\scriptBlockVariable.snippets.ps1xml|Snippets\Type\Type%20_DateTime_.snippets.ps1xml|Snippets\Type\Type%20_Double_.snippets.ps1xml|Snippets\Type\Type%20_Int_.snippets.ps1xml|Snippets\Type\Type%20_String_.snippets.ps1xml|Snippets\Workflow\Workflow%20(advanced).ps1.snippets.ps1xml|Snippets\Workflow\Workflow%20(simple).ps1.snippets.ps1xml|Snippets\Workflow\Workflow%20foreach-parallel.ps1.snippets.ps1xml|Snippets\Workflow\Workflow%20InlineScript.ps1.snippets.ps1xml|Snippets\Workflow\Workflow%20Parallel.ps1.snippets.ps1xml|Templates\Generic%20Header.ps1|TemplateScripts\XAML\Create%20XAML%20Action%20Table.ps1|TemplateScripts\XAML\Display%20XAML.ps1|Themes\Awesome.ISESteroidsThemeXML|Themes\Dark.ISESteroidsThemeXML|Themes\Default.ISESteroidsThemeXML|Themes\GithubStyle.ISESteroidsThemeXML|Themes\LightConsole.ISESteroidsThemeXML|Themes\MonochromeGreen.ISESteroidsThemeXML|Themes\Monokai.ISESteroidsThemeXML|Themes\Solarized.ISESteroidsThemeXML|Themes\VisualStudioBlue.ISESteroidsThemeXML|UntitledTemplates\untitled.ps1xml|UntitledTemplates\Untitled.psd1|UntitledTemplates\untitled.xaml|UntitledTemplates\untitled.xml|WPF\defaultWindow.xaml|WPF\PowerShell%20WPF%20Designer.sln|WPF\PowerShell%20WPF%20Designer.suo|WPF\PowerShell%20WPF%20Designer.v12.suo|WPF\WPFDesigner\App.config|WPF\WPFDesigner\App.xaml|WPF\WPFDesigner\App.xaml.cs|WPF\WPFDesigner\MainWindow.backup|WPF\WPFDesigner\MainWindow.xaml|WPF\WPFDesigner\MainWindow.xaml.cs|WPF\WPFDesigner\PowerShell%20WPF%20Designer.csproj|WPF\WPFDesigner\bin\Debug\WPFDesigner.exe|WPF\WPFDesigner\bin\Debug\WPFDesigner.exe.config|WPF\WPFDesigner\bin\Debug\WPFDesigner.pdb|WPF\WPFDesigner\bin\Debug\WPFDesigner.vshost.exe|WPF\WPFDesigner\bin\Debug\WPFDesigner.vshost.exe.config|WPF\WPFDesigner\bin\Debug\WPFDesigner.vshost.exe.manifest|WPF\WPFDesigner\obj\Debug\App.g.cs|WPF\WPFDesigner\obj\Debug\App.g.i.cs|WPF\WPFDesigner\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache|WPF\WPFDesigner\obj\Debug\MainWindow.baml|WPF\WPFDesigner\obj\Debug\MainWindow.g.i.cs|WPF\WPFDesigner\obj\Debug\PowerShell%20WPF%20Designer.csproj.FileListAbsolute.txt|WPF\WPFDesigner\obj\Debug\PowerShell%20WPF%20Designer.csproj.GenerateResource.Cache|WPF\WPFDesigner\obj\Debug\PowerShell%20WPF%20Designer.csprojResolveAssemblyReference.cache|WPF\WPFDesigner\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs|WPF\WPFDesigner\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs|WPF\WPFDesigner\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs|WPF\WPFDesigner\obj\Debug\WPFDesigner.csproj.FileListAbsolute.txt|WPF\WPFDesigner\obj\Debug\WPFDesigner.exe|WPF\WPFDesigner\obj\Debug\WPFDesigner.g.resources|WPF\WPFDesigner\obj\Debug\WPFDesigner.pdb|WPF\WPFDesigner\obj\Debug\WPFDesigner.Properties.Resources.resources|WPF\WPFDesigner\obj\Debug\WPFDesigner_MarkupCompile.cache|WPF\WPFDesigner\obj\Debug\WPFDesigner_MarkupCompile.i.cache|WPF\WPFDesigner\Properties\AssemblyInfo.cs|WPF\WPFDesigner\Properties\Resources.Designer.cs|WPF\WPFDesigner\Properties\Resources.resx|WPF\WPFDesigner\Properties\Settings.Designer.cs|WPF\WPFDesigner\Properties\Settings.settings|WPFSamples\Full%20Examples\Dialog%20with%20Textboxes.ps1|WPFSamples\Full%20Examples\Dropdown%20list%20and%20data%20binding.ps1|WPFSamples\Full%20Examples\Event%20Sample.ps1|WPFSamples\Full%20Examples\Grid%20Splitter.ps1|WPFSamples\Full%20Examples\GridView%20with%20data%20binding.ps1|WPFSamples\Full%20Examples\Movie%20Player.ps1|WPFSamples\Full%20Examples\Task%20Dashboard.ps1|WPFSamples\Full%20Examples\Validating%20Input.ps1</S>
+          <S N="GUID">b184a643-8328-42fe-a857-bdca08d413c2</S>
+          <S N="PowerShellVersion">3.0</S>
+          <S N="DotNetFrameworkVersion">4.0</S>
+          <S N="CompanyName">www.powertheshell.com</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\693982\OneDrive - Wichita Public Schools\Documents\PowerShell\Modules\ISESteroids\2.7.1.7</S>
+    </MS>
+  </Obj>
+</Objs>

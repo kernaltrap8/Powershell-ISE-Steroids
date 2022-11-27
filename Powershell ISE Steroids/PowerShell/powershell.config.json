@@ -1,0 +1,2 @@
+{"Microsoft.PowerShell:ExecutionPolicy":"Bypass"}
+oh-my-posh init pwsh | Invoke-Expression
